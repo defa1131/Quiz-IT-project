@@ -1,0 +1,97 @@
+.answers {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.answers .container {
+    max-width: 1200px;
+}
+
+.breadcrumbs {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.breadcrumbs-one a {
+    color: #DCDCF3;
+}
+
+.breadcrumbs-two a {
+    color: #6933DC;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+.breadcrumbs-one img {
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.answers-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.test-answer-title {
+    margin-bottom: 40px;
+}
+
+/* .test-answer-options {
+    min-height: 156px;
+} */
+
+.test-answer-option {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* .test-answer-option label {
+    cursor: pointer;
+} */
+
+.correct label {
+    color: #5FDC33;
+}
+
+.correct input[type="radio"] {
+    border-width: 6px;
+    border-color: #5FDC33;
+}
+
+.correct input[type="radio"]::before {
+    box-shadow: inset 10px 10px #FFFFFF;
+}
+
+.incorrect input[type="radio"]::before {
+    box-shadow: inset 10px 10px #FFFFFF;
+}
+
+.incorrect label {
+    color: #DC3333;
+}
+
+.incorrect input[type="radio"] {
+    border-width: 6px;
+    border-color: #DC3333;
+}
+
+.incorrect input[type="radio"]::before {
+    box-shadow: inset 10px 10px #FFFFFF;
+}
+
+.test-answers {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.see-correct-answers {
+    margin-top: 60px;
+    justify-content: flex-end;
+}
